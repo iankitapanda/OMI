@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: #210101;
+  --color-primary: #497ba6;
+  --color-secondary: #8a2717;
 }
 
 /* Smooth scroll behavior */
@@ -40,6 +40,9 @@ body {
 a {
   color: var(--color-primary);
   text-decoration: none;
+}
+.coverimg {
+  background : url('../img/Capture3-PhotoRoom.png-PhotoRoom.png')
 }
 
 a:hover {
@@ -318,7 +321,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #8b2414;
   font-size: 50px ;
 }
 
@@ -429,7 +432,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #56d8c9;
   }
 
   .navbar .dropdown ul a i {
@@ -500,7 +503,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgba(153, 172, 177, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -682,7 +685,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(150, 24, 85, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
